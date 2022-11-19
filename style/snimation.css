@@ -1,0 +1,117 @@
+@keyframes animation1{
+   0%{
+       transform: rotate(0deg);
+   }
+
+   70%,100%{
+       transform: rotate(360deg);
+   }
+}
+
+
+/*  animation from sharingan 1 to 2 */
+
+@keyframes an_div_first{
+   0%,30%,80%,100%{
+       /* sharingan 1 style */
+       height: 100%;
+       width: 100%;
+       opacity: .5;
+       background-color: var(--eye-backcolor);
+       
+   }
+   40%,70%{
+       /* sharingan 2 style */
+       opacity: 1;
+       background-color: var(--eye-color);
+       width: 85%;
+       height: 85%;
+       margin: 50%;
+       transform: translate(-50%,-50%);
+   }
+}
+
+@keyframes an_div_2{
+   0%,30%,80%,100%{
+       /* sharingan 1 style */
+       height: 45%;
+       width: 45%;
+       background-color: var(--eye-color);
+       z-index: auto;
+   }
+   40%,70%{
+       /* sharingan 2 style */
+       width: 25%;
+       height: 25%;
+       background-color: var(--eye-backcolor);
+       z-index: 777;
+   }
+}
+
+@keyframes an_div_3{
+   0%,30%,80%,100%{
+       /* sharingan 1 style */
+       top: -46%;
+       left: 66%; 
+       height: 50%;
+       width: 50%;
+       font-size: 65px; 
+   }
+   40%,70%{
+       /* sharingan 2 style */
+       top: -15%;
+       left: 12%;
+       width: 100%;
+       height: 100%;
+       font-size: 165px;
+   }
+}
+
+@keyframes an_div_4{
+   0%,30%,80%,100%{
+       /* sharingan 1 style */
+       bottom: -46%;
+       right: -20%;
+       height: 50%;
+       width: 50%;
+       font-size: 65px; 
+   }
+   40%,70%{
+       /* sharingan 2 style */
+       bottom: -16%;
+       right: -9%;
+       width: 100%;
+       height: 100%;
+       font-size: 165px;
+   }
+}
+@keyframes an_div_last{
+   0%,30%,80%,100%{
+       /* sharingan 1 style */
+       bottom: 18%;
+       left: -60%;
+       height: 50%;
+       width: 50%;
+       font-size: 65px; 
+   }
+   40%,70%{
+       /* sharingan 2 style */
+       bottom: 4%;
+       left: -17%;
+       width: 100%;
+       height: 100%;
+       font-size: 165px;
+   }
+  }
+
+
+  @keyframes eye_animation{
+   0%,36%,55%,100%{
+       height: 130px;
+       padding-top: 20px;
+   }
+   43%,47%{
+       height: 0;
+       padding-top: 0;
+   }
+}
